@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700&family=Nunito:wght@500&family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+
+* {
+  font-family: "nunito", sans-serif;
+  letter-spacing: 1.2px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #414345;
+  align-items: center;
+  padding-left: 10px;
+  padding: 20px;
+}
+
+.list-items li {
+  display: inline-block;
+}
+
+.list-items a {
+  color: white;
+  text-decoration: none;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+button {
+  background-image: linear-gradient(#7f7fd5, #86a8e7, #91eae4);
+  padding: 8px;
+  border-radius: 10px;
+  border-style: none;
+  width: 80px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Animations */
+
+.list-items a {
+  transition: all 0.3s ease 0s;
+}
+
+.list-items a:hover {
+  color: #7f7fd5;
+}
+
+button {
+  transition: all 0.4s ease 0s;
+}
+
+button:hover {
+  padding: 1em;
+  font-size: smaller;
+  border-radius: 20px;
+}
